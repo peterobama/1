@@ -41,7 +41,7 @@ if (mouseX<12 && mouseY>250 && mouseY<375){
   }
 	
 
-  if (((((mouseIsPressed)&&(mouseX>2290)&&(mouseX<2310)&&(mouseY>160)&&(mouseY<200))))){
+  if (((((mouseIsPressed)&&(mouseX>2285)&&(mouseX<2315)&&(mouseY>155)&&(mouseY<205))))){
 
 
      
@@ -53,22 +53,22 @@ if (mouseX<12 && mouseY>250 && mouseY<375){
        }
        
  
-  if ((mouseIsPressed) && (mouseX<2290)){
+  if ((mouseIsPressed) && (mouseX<2285)){
     image(notreffa, mouseX-120, mouseY-190);
  		//rect(0,0,3196,631);  
    	//fill(255,0,0,50);
   }
-  if ((mouseIsPressed) && (mouseX>2310)){
+  if ((mouseIsPressed) && (mouseX>2315)){
     image(notreffa, mouseX-120, mouseY-190);
  		//rect(0,0,3196,631);  
    	//fill(255,0,0,50);
   }
-    if ((mouseIsPressed) && (mouseY<160)){
+    if ((mouseIsPressed) && (mouseY<155)){
     image(notreffa, mouseX-120, mouseY-190);
  		//rect(0,0,3196,631);  
   	//fill(255,0,0,50);
   }
-      if ((mouseIsPressed) && (mouseY>200)){
+      if ((mouseIsPressed) && (mouseY>205)){
     image(notreffa, mouseX-120, mouseY-190);
  		//rect(0,0,3196,631);  
  	//fill(255,0,0,50);
