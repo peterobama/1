@@ -47,31 +47,31 @@ if (mouseX<12 && mouseY>250 && mouseY<375){
      
    noLoop();
     image(schein,2250,128);
-    nextLevel.position(2400,150);
+    nextLevel.position(2200,150);
 
 
        }
        
  
   if ((mouseIsPressed) && (mouseX<2290)){
-    image(notreffa, mouseX-120, mouseY-50);
- 		rect(0,0,3196,631);  
-   	fill(255,0,0,50);
+    image(notreffa, mouseX+1, mouseY-50);
+ 		//rect(0,0,3196,631);  
+   	//fill(255,0,0,50);
   }
   if ((mouseIsPressed) && (mouseX>2310)){
-    image(notreffa, mouseX-120, mouseY-50);
- 		rect(0,0,3196,631);  
-   	fill(255,0,0,50);
+    image(notreffa, mouseX+1, mouseY-50);
+ 		//rect(0,0,3196,631);  
+   	//fill(255,0,0,50);
   }
     if ((mouseIsPressed) && (mouseY<160)){
-    image(notreffa, mouseX-120, mouseY-50);
- 		rect(0,0,3196,631);  
-  	fill(255,0,0,50);
+    image(notreffa, mouseX+1, mouseY-50);
+ 		//rect(0,0,3196,631);  
+  	//fill(255,0,0,50);
   }
       if ((mouseIsPressed) && (mouseY>200)){
-    image(notreffa, mouseX-120, mouseY-50);
- 		rect(0,0,3196,631);  
- 	fill(255,0,0,50);
+    image(notreffa, mouseX+1, mouseY-50);
+ 		//rect(0,0,3196,631);  
+ 	//fill(255,0,0,50);
   }
 
        }
